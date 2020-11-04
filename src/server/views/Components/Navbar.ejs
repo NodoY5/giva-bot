@@ -1,0 +1,43 @@
+<div>
+    <nav class="navbar-dark navbar navbar-expand-lg border-dark" style="background-color: #7289DA;">
+        <a class="navbar-brand text-white" href="/">
+            <img class="rounded-circle" style="margin-left: 1rem;"
+                src='https://cdn.discordapp.com/avatars/634908645896880128/8b07933aa38d65760745017dadd4e520.png?size=32' />
+            <img class="rounded" style="max-height: 4rem;max-width: 9rem;"
+                src="https://media.discordapp.net/attachments/725261970940624938/735838125326336060/logo.png" />
+        </a>
+        <div class="collapse navbar-collapse align-content-md-around">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light border-0" href="/dashboard">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light border-0" href="/commands">Commands</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light border-0" href="/status">Status</a>
+                </li>
+            </ul>
+        </div>
+        <% if (user) { %>
+        <div class="nav-item">
+            <a class="btn btn-outline-ligh text-light">
+                <%- user.username %>#<%- user.discriminator %>
+            </a>
+        </div>
+
+        <div class="nav-item" style="margin-left: 1rem; margin-right: 1rem;">
+            <a class="btn btn-outline-light text-light" href="/oauth/logout">
+                Logout
+            </a>
+        </div>
+        <% } else { %>
+        <div class="nav-item" style="text-align: center; margin-right: 1rem;">
+            <a class="btn btn-outline-light text-light" href="/oauth/login">
+                Login
+            </a>
+        </div>
+        <% } %>
+    </nav>
+    <p>&nbsp;</p>
+</div>

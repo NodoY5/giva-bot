@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<%- include('Components/Header', { title: '404 Not Found' }) %>
+
+<body style="background-color: #2C2F33;">
+
+    <%- include('Components/Navbar', { user }) %>
+
+    <div class="card mx-auto d-block" style="max-width: 24rem; background-color: #23272A;">
+        <div class="card-title text-center text-white">
+            <h1>404 Not Found</h1>
+        </div>
+        <div class="card-body text-light">
+            Oh oh! You've entered an unknown airspace!
+        </div>
+        <div class="card-footer">
+            <a href="/" class="btn btn-primary mx-auto d-block">Home</a>
+        </div>
+    </div>
+
+    <%- include('Components/Footer') %>
+</body>
+
+</html>

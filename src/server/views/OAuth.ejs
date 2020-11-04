@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<%- include('Components/Header', { title: 'Unicron - OAuth' }) %>
+
+<body style="background-color: #2C2F33;">
+    <%- include('Components/Navbar', { user }) %>
+    <div class="card mx-auto d-block" style="max-width: 60rem; background-color: #2C2F33;">
+        <% if (user) { %>
+        <a href="/oauth/logout" class="btn btn-outline-primary mx-auto">Logout</a>
+        <% } else { %>
+        <a href="/oauth/login" class="btn btn-outline-primary mx-auto">Login</a>
+        <% } %>
+    </div>
+    <%- include('Components/Footer') %>
+</body>
+
+</html>

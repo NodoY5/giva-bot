@@ -1,0 +1,10 @@
+<div class="card rounded" style="width: 18rem; background-color: #23272A;margin: 1rem;">
+    <img class="card-img-top rounded d-flex mr-3"
+        src="<%= `https://cdn.discordapp.com/icons/${guild.id}/${guild.icon}.png?size=128`%>" alt="image cap">
+    <div class="card-body">
+        <h5 class="card-title text-light"><%- guild.name %></h5>
+    </div>
+    <div class="card-footer">
+        <a href="/dashboard/manage/<%= `${guild.id}`%>" class="btn btn-primary mx-auto d-block">Manage</a>
+    </div>
+</div>
