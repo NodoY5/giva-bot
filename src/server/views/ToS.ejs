@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<%- include('Components/Header', { title: 'Unicron - Terms of Service' }) %>
+
+<body style="background-color: #2C2F33;">
+
+    <%- include('Components/Navbar', { user }) %>
+
+    <div class="card mx-auto d-block" style="max-width: 72rem;background-color: #23272A;">
+        <h2 class="card-title text-center text-light">Unicron - Terms of Service</h2>
+        <div class="card-body">
+            <p class="text-light">
+                Unicron has access to the End User Data through the Discord API, but Unicron does collect, use and/or
+                disclose End User Data except (a) as necessary to exercise your rights under this Agreement, (b) in
+                accordance
+                with Discord’s Privacy Policy.<br> <br>
+                We will never sell, license or otherwise commercialize any End User Data. <br> Neither will we ever use
+                End
+                User
+                Data to target End Users for marketing or advertising purposes. <br> We will never even disclose any End
+                User
+                Data to
+                any ad network, data broker or other advertising or monetization related service. <br>
+                End User Data will be retained only as necessary to provide the defined functionality of the Application
+                and
+                nothing more. <br>
+                We ensure that all End User Data is stored using reasonable security measures and we take reasonable
+                steps
+                to
+                secure End User Data. <br>
+                By using Unicron you expressly agree to this Agreement. And by using Discord you expressly agree to
+                Discord’s <a href="https://discordapp.com/terms" target="_blank">Terms of Service</a>, <a
+                    href="https://discordapp.com/guidelines" target="_blank">Guidelines</a>, and <a
+                    href="https://discordapp.com/privacy" target="_blank">Privacy Policy</a>.
+        </div>
+        <div class="card-footer">
+            <p class="font-italic text-light">“End User Data” means all data associated with the content within the
+                functionality enabled
+                by the Discord API, including but not limited to message content, message metadata, voice data and voice
+                metadata.*</p>
+            </p>
+        </div>
+    </div>
+
+    <%- include('Components/Footer') %>
+</body>
+
+</html>

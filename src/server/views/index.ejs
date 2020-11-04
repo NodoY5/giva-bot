@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<%- include('Components/Header', { title: 'Unicron - Discord Bot' }) %>
+
+<body style="background-color: #2C2F33;">
+    <%- include('Components/Navbar', { user }) %>
+    <div class="text-light border-info">
+        <img class="center rounded-circle mx-auto d-block img-fluid" style="text-align:center"
+            src='https://cdn.discordapp.com/avatars/634908645896880128/8b07933aa38d65760745017dadd4e520.png?size=128'>
+        <h1 class="text-center">Unicron</h1>
+        <p class="text-center">
+            A Powerful multi-purpose Discord Bot with over than 100+ commands that comes with many features!
+        </p>
+        <div style="text-align:center">
+            <a class="btn btn-primary" href="/invite" target="_blank">
+                Add to Discord
+            </a>
+            <% if (user) { %>
+
+            <a class="btn btn-primary" href="/dashboard">
+                Manage Servers
+            </a>
+
+            <% } else { %>
+
+            <a class="btn btn-primary" href="/oauth/login">
+                <img class="rounded" style="max-width: 1rem; max-height: 1rem;"
+                    src='https://discord.com/assets/28174a34e77bb5e5310ced9f95cb480b.png'> Login
+            </a>
+
+            <% } %>
+        </div>
+        <p>&nbsp;</p>
+        <div class="card-group">
+            <div class="card text-white mb-3 mx-auto" style="max-width: 26rem;background-color: #23272A;">
+                <div class="card-body">
+                    <h4 class="card-title text-center">🎟️ Ticket System</h4>
+                    <p class="card-text">
+                        Our wonderful very simple Ticket System bringing/helping support from your members as your
+                        community continue to grows
+                    </p>
+                </div>
+            </div>
+            <div class="card text-white mb-3 mx-auto" style="max-width: 26rem;background-color: #23272A;">
+                <div class="card-body">
+                    <h4 class="card-title text-center">⚙️ Customizable</h4>
+                    <p class="card-text">
+                        With Unicron dashboard everything is easy to setup!<br>
+                        Configure what works best for you!
+                    </p>
+                </div>
+            </div>
+            <div class="card text-white mb-3 mx-auto" style="max-width: 26rem;background-color: #23272A;">
+                <div class="card-body">
+                    <h4 class="card-title text-center">⚒️ Moderation</h4>
+                    <p class="card-text">
+                        Always growing simple yet powerful moderation utilities. Putting you back in control of your
+                        community.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card text-white mx-auto" style="max-width: 26rem;background-color: #23272A;">
+                <div class="card-body">
+                    <h4 class="card-title text-center">💸 Economy</h4>
+                    <p class="card-text">
+                        With our awesome Economy system, you can now engage members to your community as it continues to
+                        grow !
+                    </p>
+                </div>
+            </div>
+            <div class="card text-white mx-auto" style="max-width: 26rem;background-color: #23272A;">
+                <div class="card-body">
+                    <h4 class="card-title text-center">🎙️ Dynamic Text/Voice</h4>
+                    <p class="card-text">
+                        Which allows users to create their own temporary text/voice Channels to enhance your community
+                        environment as your users continue to meet new people.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include('Components/Footer') %>
+</body>
+
+</html>

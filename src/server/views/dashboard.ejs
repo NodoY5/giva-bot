@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<%- include('Components/Header', { title: 'Unicron - Dashboard' }) %>
+
+<body style="background-color: #2C2F33;">
+
+    <%- include('Components/Navbar', { user }) %>
+
+    <h1 class="text-center text-light">Select a server!</h1>
+    <p class="border-0 rounded text-center text-light">Not seeing your server? Make sure you have manage_server permission on that
+        server</p>
+    <div class="container d-flex flex-row flex-wrap justify-content-center">
+
+        <% guilds.forEach((guild) => { %>
+
+        <%- include('Components/Guild', { guild }) %>
+
+        <% }) %>
+
+    </div>
+
+
+    <%- include('Components/Footer') %>
+</body>
+
+</html>

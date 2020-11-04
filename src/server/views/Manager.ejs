@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<%- include('Components/Header', { title: guild.name }) %>
+
+<body style="background-color: #2C2F33;">
+
+    <%- include('Components/Navbar', { user }) %>
+
+    <h2 class="text-light text-center">Server Management - <%- guild.name%></h2>
+
+    <div class="card-group">
+        <div class="card text-white mx-auto d-block"
+            style="background-color: #23272A;max-width: 12rem; margin: 5px 10px 5px 10px;">
+            <form method="POST">
+                <div class="card-body">
+                    <label class="col-form-label" for="prefix">Prefix</label>
+                    <input type="text" class="form-control" value="<%- db.settings('prefix') %>" id="prefix"
+                        name="prefix" maxlength="5">
+                </div>
+                <div class="card-footer">
+                    <div style="text-align: right;">
+                        <button type="submit" class="btn btn-success">Save
+                            <i class="fa fa-fw fa-save" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <%- include('Components/Footer') %>
+
+</body>
+
+</html>
