@@ -85,7 +85,7 @@ Searching commands, what more could you want?
 | **stackoverflow** | The google of programmers | `stackoverflow <Query>` |
 | **steam** | Searches a game on steam and showing it's cool information about it | `steam <Game>` |
 
-## Economy
+## Economy ( Kinda Not Owrking Now )
 
 idk what to put here ngl, just so you know **Unicron's Economy** is good for keeping your server active and it's cool xd
 
