@@ -3,7 +3,7 @@
 ## Before you begin
 
 1. Make sure you have installed [Node.js](https://www.guru99.com/download-install-node-js.html) v12 or higher and [Git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
-2. Clone this repository with `git clone https://github.com/oadpoaw/unicron-bot.git`.
+2. Clone this repository with `git clone https://github.com/NodoY5/giva-bot.git`.
 3. Run `cd unicron-bot` to move in the folder that Git has just created.
 
 ## Setting configurations.
@@ -44,7 +44,7 @@ PORT=
 
 ### Emojis
 
-For emojis, you must add them on one of your bot's servers. Complete configuration for emojis are located on [Emojis](https://github.com/oadpoaw/unicron-bot/tree/6c975122a6b50ba1a0987885b47bc7f5a8d8d41e/assets/Emotes.json)
+For emojis, you must add them on one of your bot's servers. Complete configuration for emojis are located on [Emojis](https://github.com/NodoY5/giva-bot/tree/6c975122a6b50ba1a0987885b47bc7f5a8d8d41e/assets/Emotes.json)
 
 ## Installing Dependencies
 
@@ -67,5 +67,5 @@ $ npm run dbInit
 $ node .
 ```
 
-enjoy!
+> Enjoy!
 
