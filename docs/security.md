@@ -9,4 +9,4 @@
 
 ## Reporting a Vulnerability
 
-Just report in the support serer
+Just report in the [support server](https://discord.gg/pzXfJYmd6v)
