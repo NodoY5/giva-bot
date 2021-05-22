@@ -166,16 +166,16 @@ module.exports = class extends BaseCommand {
           `\`settings\``,
           true
         )
-        .addField(`🎫 Ticket System`, `\`ticket\``, true)
-        .addField(`♾️ Dynamic Text/Voice`, `\`dynamic\``, true)
+        .addField(`:postbox: Ticket System`, `\`ticket\``, true)
+        .addField(`:link: Dynamic Text/Voice`, `\`dynamic\``, true)
         .addField(
-          ` Utility`,
+          `:pencil: Utility`,
           `\`utility\``,
           true
         )
-        .addField(`🔍 Search`, `\`search\``, true)
-        .addField(` Misc`, `\`misc\``, true)
-        .addField("😂 Fun", `\`fun\``, true)
+        .addField(`:mag_right: Search`, `\`search\``, true)
+        .addField(`:satellite: Misc`, `\`misc\``, true)
+        .addField(":laughing: Fun", `\`fun\``, true)
         .setTimestamp()
     );
   }
