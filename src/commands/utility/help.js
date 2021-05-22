@@ -157,12 +157,12 @@ module.exports = class extends BaseCommand {
           `Join our [Support Server](${client.unicron.serverInviteURL}) for help and updates!\n\`\`\`xl\n${prefix}help [Category]\n\`\`\``
         )
         .addField(
-          `${await client.getEmoji("staff")} Moderation`,
+          `:hammer_pick: Moderation`,
           `\`moderation\``,
           true
         )
         .addField(
-          `${await client.getEmoji("settings")} Settings`,
+          `:gear: Settings`,
           `\`settings\``,
           true
         )
