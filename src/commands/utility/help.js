@@ -152,7 +152,7 @@ module.exports = class extends BaseCommand {
     return message.channel.send(
       new Discord.MessageEmbed()
         .setColor(0x00ffff)
-        .setTitle("Commands")
+        .setTitle(":bookmark: Commands")
         .setDescription(
           `Join our [Support Server](${client.unicron.serverInviteURL}) for help and updates!\n\`\`\`xl\n${prefix}help [Category]\n\`\`\``
         )
