@@ -9,7 +9,7 @@ module.exports = class extends BaseCommand {
         super({
             config: {
                 name: 'shard',
-                description: 'Shows what shard your server is located on',
+                description: 'Shows what shard your server is located on!',
                 permission: 'User',
             },
             options: {
@@ -42,12 +42,12 @@ module.exports = class extends BaseCommand {
                 .then((results) => {
                     const result = results.find(g => g);
                     if (!result) {
-                        return message.channel.send(`i couldn't find that guild, sorry :/`);
+                        return message.channel.send(`I couldn't find that guild, Sorry :telescope:`);
                     }
-                    message.channel.send(`That server is located on shard ${result.shardID}`);
+                    message.channel.send(`:ledger: That server is located on shard ${result.shardID}`);
             });
             return;
         }
-        message.channel.send(`This server is located on shard ${message.guild.shardID}`);
+        message.channel.send(`:ledger: This server is located on shard ${message.guild.shardID}`);
     }
 }
