@@ -33,7 +33,7 @@ module.exports = class extends BaseCommand {
         const OWNER = await client.users.fetch(client.unicron.owner, false);
         return message.channel.send(new Discord.MessageEmbed()
             .setColor(0x00FFFF)
-            .setTitle('0_0 Fun & Moderation bot')
+            .setTitle('Giva Bot')
             .setDescription(`
 [Support Server](${client.unicron.serverInviteURL})
 [Invite to your server](https://discord.com/oauth2/authorize?client_id=764096286202265630&scope=bot&permissions=285599830)`)
