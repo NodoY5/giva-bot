@@ -17,7 +17,7 @@ module.exports = class extends BaseCommand {
                 aliases: ['capture', 'snap'],
                 clientPermissions: ['ATTACH_FILES'],
                 cooldown: 10,
-                nsfwCommand: false,
+                nsfwCommand: true,
                 args: true,
                 usage: 'screenshot <URL>',
                 donatorOnly: false,
