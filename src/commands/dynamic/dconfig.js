@@ -42,7 +42,7 @@ module.exports = class extends BaseCommand {
                 const waitingRoom = message.guild.channels.cache.get(wid) ? `${message.guild.channels.cache.get(wid).name}` : `\`none\``;
                 const embed = new Discord.MessageEmbed()
                     .setColor('RANDOM')
-                    .setDescription('You can also do \`dvsetup\` to setup Dynamic Voice interactively')
+                    .setDescription('You can also do \`dvsetup\` to setup Dynamic Voice interactively :eyes: ')
                     .addField('Key', `
                     \`category\`
                     \`waitingRoom\`
@@ -59,17 +59,17 @@ module.exports = class extends BaseCommand {
                     case 'category': {
                         const channel = message.guild.channels.cache.get(value[0]);
                         if (!channel || channel.type !== 'category') return message.channel.send(`Invalid channel category, try again`);
-                        if (!channel.permissionsFor(message.guild.me).has(['MANAGE_CHANNELS', 'MOVE_MEMBERS'])) return message.channel.send('Unicron doesn\'t have permissions to that channel, please give Unicron access to that channel for this to work and try again...');
+                        if (!channel.permissionsFor(message.guild.me).has(['MANAGE_CHANNELS', 'MOVE_MEMBERS'])) return message.channel.send(':lock: Unicron doesn\'t have permissions to that channel, please give Unicron access to that channel for this to work and try again...');
                         const model = db.dynamicVoice(true);
                         model.category = channel.id;
                         await model.save();
-                        message.channel.send('Dynamic Voice Category set!');
+                        message.channel.send('Dynamic Voice Category set! :thumpsup: ');
                         break;
                     }
                     case 'waitingRoom': {
                         const channel = message.guild.channels.cache.get(value[0]);
                         if (!channel || channel.type !== 'voice') return message.channel.send(`Invalid voice channel, try again`);
-                        if (!channel.permissionsFor(message.guild.me).has(['MANAGE_CHANNELS', 'MOVE_MEMBERS'])) return message.channel.send('Unicron doesn\'t have permissions to that channel, please give Unicron access to that channel for this to work and try again...');
+                        if (!channel.permissionsFor(message.guild.me).has(['MANAGE_CHANNELS', 'MOVE_MEMBERS'])) return message.channel.send(':lock: Unicron doesn\'t have permissions to that channel, please give Unicron access to that channel for this to work and try again...');
                         const model = db.dynamicVoice(true);
                         model.waitingRoom = channel.id;
                         await model.save();
@@ -81,7 +81,7 @@ module.exports = class extends BaseCommand {
                             .setColor('RED')
                             .setTimestamp()
                             .setFooter(message.author.tag, message.author.displayAvatarURL({ dynamic: true }) || message.guild.iconURL())
-                            .setDescription('Incorrect arguments, pls use `help dvconfig` for more information.')
+                            .setDescription(' :mag_right: Incorrect arguments, pls use `help dvconfig` for more information.')
                         );
                     }
                 }
@@ -101,7 +101,7 @@ module.exports = class extends BaseCommand {
                     .setColor('RED')
                     .setTimestamp()
                     .setFooter(message.author.tag, message.author.displayAvatarURL({ dynamic: true }) || message.guild.iconURL())
-                    .setDescription('Incorrect arguments, pls use `help dconfig` for more information.')
+                    .setDescription(' :mag_right: Incorrect arguments, pls use `help dconfig` for more information.')
                 );
             }
         }
