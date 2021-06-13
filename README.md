@@ -4,7 +4,7 @@
 
 A Powerful multipurpose open source Discord Bot with over than 100+ commands!
 
-Coded in Javascript with [Discord.js](https://discord.js.org) by [NodoY5](https://github.com/NodoY5) including spaghetti code!
+Coded in Javascript with [Discord.js](https://discord.js.org) by [NodoY5](https://github.com/NodoY5) & [SquadX2021](https://github.com/SquadX2021) including spaghetti code!
 
 > Feel free to add a star ⭐ to the repository to promote the Bot and the project iteself!
 
