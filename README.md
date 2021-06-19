@@ -1,6 +1,7 @@
-# README
+# Giva Bot
 
-## Giva Bot
+[![Discord Bots](https://top.gg/api/widget/status/764096286202265630.svg?noavatar=true)](https://top.gg/bot/764096286202265630)
+[![Discord Bots](https://top.gg/api/widget/owner/764096286202265630.svg?noavatar=true)](https://top.gg/bot/764096286202265630)
 
 A Powerful multipurpose open source Discord Bot with over than 100+ commands!
 
