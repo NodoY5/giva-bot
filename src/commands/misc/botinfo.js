@@ -43,7 +43,8 @@ module.exports = class extends BaseCommand {
             .addField('Commands', `${client.commands.size} cmds`,true)
             .addField('Node', `${process.version} on ${process.platform} ${process.arch}`, true)
             .addField('Cached Data', `${client.users.cache.size} users\n${client.emojis.cache.size} emojis`, true)
-            .addField('Discord.js', `${discordjsVersion}`, true)
+            .addField('Version', `3.0.1`, true)
+            .addField('Website', `https://giva-bot.vercel.app/`, true)
             .setTimestamp()
         );
     }
