@@ -11,7 +11,7 @@ module.exports = class extends BaseEvent {
   async run(client) {
     client.forceSweep(70);
     client.startSweepInterval();
-client.user.setActivity(`My New Website!! | https://giva-bot.vercel.app/ `, { type : "WATCHING" })
+client.user.setActivity(`!help | BitQuote Co.`, { type : "WATCHING" })
   }
 };
 
