@@ -32,7 +32,7 @@ module.exports = class extends BaseCommand {
     async run(client, message, args) {
         message.channel.send(new Discord.MessageEmbed()
             .setColor('RANDOM')
-            .setTitle(`Unicron v${version}`)
+            .setTitle(`Unicron v3.0.1`)
             .setThumbnail(client.user.displayAvatarURL({ dynamic: true }))
             .addField('Uptime', `${ms(client.uptime)}`, true)
             .addField('WebSocket Ping', `${client.ws.ping}ms`, true)
