@@ -41,6 +41,12 @@ You must follow the [Installation Guide](docs/installation.md) to properly insta
 
 > Don't worry, it's fast and simple if you follow the guide!
 
+### Credits
+
+[@NodoY5](https://github.com/NodoY5) for whole main project.
+[@SquadX2021](https://github.com/SquadXX) for many commands.
+@0_0 for the node.js framework used.
+
 ## License
 
 > Giva Bot is licensed under the MIT License . See the file [LICENSE](LICENSE) for more information. If you plan to use any part of this source code in your own bot, I would be grateful if you would include some form of credit somewhere.
