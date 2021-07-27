@@ -1,3 +1,11 @@
+// This BOT is a Copyright Property of BitQuote Co. and Aarav Mehta
+// All the credits in ReadMe file!!
+//
+//
+// Regards,
+// Aarav Mehta
+
+
 require('dotenv').config();
 require('./terminal');
 require('./database/Connection');
