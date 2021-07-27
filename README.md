@@ -43,8 +43,8 @@ You must follow the [Installation Guide](docs/installation.md) to properly insta
 
 ### Credits
 
-[@NodoY5](https://github.com/NodoY5) for whole main project.
-[@SquadX2021](https://github.com/SquadXX) for many commands.
+[@NodoY5](https://github.com/NodoY5) for whole main project.  
+[@SquadX2021](https://github.com/SquadXX) for many commands.  
 @0_0 for the node.js framework used.
 
 ## License
