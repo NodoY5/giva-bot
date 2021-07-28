@@ -1,7 +1,8 @@
 # Giva Bot
 
-[![Made With Javascript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
-[![Made with Love](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![Made With Javascript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://giva-bot.vercel.app)
+[![Made with Love](https://forthebadge.com/images/badges/built-with-love.svg)](https://giva-bot.vercel.app)
+[![Giva Bot v3.0](https://raw.githubusercontent.com/NodoY5/giva-bot/bee740359594ae09507c5a6d286c840c75bac1f9/assets/readme/pics/svg/image.svg)](https://giva-bot.vercel.app)
 
 A Powerful multipurpose open source Discord Bot with over than 100+ commands!
 
