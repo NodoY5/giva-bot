@@ -47,12 +47,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/oadpoaw/unicron-bot.git"
+    "url": "git://github.com/NodoY5/giva-bot.git"
   },
   "bugs": {
-    "url": "https://github.com/oadpoaw/unicron-bot/issues"
+    "url": "https://github.com/NodoY5/giva-bot/issues"
   },
-  "homepage": "https://github.com/oadpoaw/unicron-bot#README",
-  "author": "undefine#6084",
+  "homepage": "https://github.com/NodoY5/giva-bot#README",
+  "author": "Aarav#5725",
   "license": "MIT"
 }
