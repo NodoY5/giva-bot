@@ -1,6 +1,6 @@
 {
   "name": "unicron-bot",
-  "version": "2.31.7",
+  "version": "3.0.1",
   "description": "Multipurpose discord bot :)",
   "main": "src/index.js",
   "dependencies": {
