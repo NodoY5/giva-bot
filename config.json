@@ -1,7 +1,7 @@
 {
     "settings": {
         "tracing": false,
-        "debug": false,
+        "debug": true,
         "warnings": true
     }
 }
