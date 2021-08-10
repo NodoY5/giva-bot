@@ -50,4 +50,4 @@ You must follow the [Installation Guide](docs/installation.md) to properly insta
 
 ## License
 
-> Giva Bot is licensced for Public Use Only if Credits are there. Removing credit from the main file can cause Copyright Issues. See the file [LICENSE](LICENSE) for more information. If you plan to use any part of this source code in your own bot, I would be grateful if you would include some form of credit somewhere.
+> Giva Bot is licensced for Public Use Only if Credits are there. Removing credit from the main file can cause Copyright Issues. See the file [LICENSE](LICENSE) for more information.
