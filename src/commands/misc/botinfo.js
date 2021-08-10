@@ -45,6 +45,7 @@ module.exports = class extends BaseCommand {
             .addField('Cached Data', `${client.users.cache.size} users\n${client.emojis.cache.size} emojis`, true)
             .addField('Version', `3.0.1`, true)
             .addField('Website', `https://giva-bot.vercel.app/`, true)
+            .addField('This bot is made by', `»»» 𝗔𝗔𝗥𝗔𝗩 𝗠𝗘𝗛𝗧𝗔 `, true)                 
             .setTimestamp()
         );
     }
