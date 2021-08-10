@@ -37,7 +37,7 @@ module.exports = class extends BaseCommand {
             .setDescription(`
 [Support Server](${client.unicron.serverInviteURL})
 [Invite to your server](https://discord.com/oauth2/authorize?client_id=764096286202265630&scope=bot&permissions=285599830)`)
-            .setFooter(`Made by ${OWNER.tag}`)
+            .setFooter(`Made by »»» 𝗔𝗔𝗥𝗔𝗩 𝗠𝗘𝗛𝗧𝗔 `)
         );
     }
 }
