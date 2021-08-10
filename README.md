@@ -21,7 +21,7 @@ Giva Bot offers:
 * High Performance Moderation System + Auto-Moderation
 * and more!
 
-#### Many Commands \(yes\)
+#### Many Commands \(yes!!\)
 
 > Unicron has alot of commands reaching 100+ split into 9 categories!
 >
