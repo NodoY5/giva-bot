@@ -51,7 +51,8 @@ You must follow the [Installation Guide](docs/installation.md) to properly insta
 ## License
 
 > Giva Bot is licensed under the MIT License . See the file [LICENSE](LICENSE) for more information. If you plan to use any part of this source code in your own bot, I would be grateful if you would include some form of credit somewhere. Removing any type of Credit from the code can get you to the copyright issues.
-
+  
+  
 
 
 ## Made with Love by [»»» 𝗔𝗔𝗥𝗔𝗩 𝗠𝗘𝗛𝗧𝗔](https://github.com/NodoY5/) 
