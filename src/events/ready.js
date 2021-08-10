@@ -15,4 +15,4 @@ client.user.setActivity(`!help | Made By Aarav`, { type : "WATCHING" })
   }
 };
 
-//LOL
+// NOTE : Don't Remove the credits othervise this can get you in Copyright Issues
