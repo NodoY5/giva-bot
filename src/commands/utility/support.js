@@ -35,7 +35,7 @@ module.exports = class extends BaseCommand {
             .setColor(0x00FFFF)
             .setTitle('Giva Bot')
             .setDescription(`
-[Support Server](${client.unicron.serverInviteURL})
+[Support Server](https://discord.gg/B6jqKDbWwU)
 [Invite to your server](https://discord.com/oauth2/authorize?client_id=764096286202265630&scope=bot&permissions=285599830)`)
             .setFooter(`Made by »»» 𝗔𝗔𝗥𝗔𝗩 𝗠𝗘𝗛𝗧𝗔 `)
         );
