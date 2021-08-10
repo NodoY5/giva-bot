@@ -15,8 +15,9 @@
 DEFAULT_PREFIX=
 # Bot Token
 BOT_TOKEN=
-# Bot Owner ID (Multiple IDs aint gonna work)
-BOT_OWNER_ID=
+# Bot Owner ID (Don't Change the value)
+# Changing this value can get you to copyright issues
+BOT_OWNER_ID=870609308751106058
 # Bot's Main/Support Server ID
 BOT_SERVER_ID=
 # Log Channel ID

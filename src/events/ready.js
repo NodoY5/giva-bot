@@ -11,8 +11,8 @@ module.exports = class extends BaseEvent {
   async run(client) {
     client.forceSweep(70);
     client.startSweepInterval();
-client.user.setActivity(`!help | BitQuote Co.`, { type : "WATCHING" })
+client.user.setActivity(`!help | Made By Aarav`, { type : "WATCHING" })
   }
 };
 
-//LOL
+// NOTE : Don't Remove the credits othervise this can get you in Copyright Issues
