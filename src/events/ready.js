@@ -11,7 +11,7 @@ module.exports = class extends BaseEvent {
   async run(client) {
     client.forceSweep(70);
     client.startSweepInterval();
-client.user.setActivity(`!help | Made By Aarav.Mehta`, { type : "WATCHING" })
+client.user.setActivity(`!help | Made By »»» 𝗔𝗔𝗥𝗔𝗩 𝗠𝗘𝗛𝗧𝗔`, { type : "WATCHING" })
   }
 };
 
