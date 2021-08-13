@@ -17,7 +17,7 @@ module.exports = class extends BaseEvent {
   ];
 
   // Update presence
-  client.user.setPresence({ status: 'idle', activity: activities[0] });
+  client.user.setPresence({ status: 'donotdisturb', activity: activities[0] });
 
   let activity = 1;
 
