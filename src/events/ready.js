@@ -12,7 +12,8 @@ module.exports = class extends BaseEvent {
     client.forceSweep(70);
     client.startSweepInterval();
   const activities = [
-    { name: 'your commands', type: 'LISTENING' }, 
+    { name: 'your commands', type: 'LISTENING' },
+    { name: 'to Aarav for Changes!!', type: 'LISTENING' },
     { name: '!help', type: 'LISTENING' }
   ];
 
