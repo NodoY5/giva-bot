@@ -21,7 +21,7 @@ Giva Bot offers:
 * High Performance Moderation System + Auto-Moderation
 * and more!
 
-#### Many Commands \(yes!!\)
+#### Many Commands [x]
 
 > Unicron has alot of commands reaching 100+ split into 9 categories!
 >
@@ -36,7 +36,7 @@ Giva Bot offers:
 
 ### Installation
 
-If you want to edit the bot's code and host it on your machine, it's possible!
+If you want to host the bot on your machine, it's possible!
 
 You must follow the [Installation Guide](docs/installation.md) to properly install it!
 
@@ -48,9 +48,10 @@ You must follow the [Installation Guide](docs/installation.md) to properly insta
 [@SquadX2021](https://github.com/SquadXX) for many commands.  
 @0_0 for the node.js framework used.
 
+
 ## License
 
 > Giva Bot is licensced for Public Use Only if Credits are there. Removing credit from the main file can cause Copyright Issues. See the file [LICENSE](LICENSE) for more information.
 
 
-## Made with Love by »»» 𝗔𝗔𝗥𝗔𝗩 𝗠𝗘𝗛𝗧𝗔
+## Made with Love in JavaScript by »»» 𝗔𝗔𝗥𝗔𝗩 𝗠𝗘𝗛𝗧𝗔
