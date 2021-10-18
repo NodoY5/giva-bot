@@ -15,10 +15,7 @@ module.exports = class extends BaseEvent {
     { name: 'your commands', type: 'LISTENING' }, 
     { name: '!help', type: 'LISTENING' },
     { name: 'Made BY Aarav Mehta', type: 'WATCHING' },
-    { name: 'with 100+ Users!', type: 'PLAYING' },
-    { name: 'my new website | https://giva-bot.vercel.app/', type: 'WATCHING' },
-    { name: 'my source code | https://github.com/NodoY5/giva-bot/', type: 'WATCHING' }
-  ];
+    },
 
   // Update presence
   client.user.setPresence({ status: 'dnd', activity: activities[0] });
@@ -28,7 +25,7 @@ module.exports = class extends BaseEvent {
   // Update activity every 30 seconds
   setInterval(() => {
     activities[2] = { name: `${client.guilds.cache.size} servers!`, type: 'WATCHING' }; // Update server count
-    activities[3] = { name: `10000+ Users!`, type: 'WATCHING' }; // Update user count
+    activities[3] = { name: `1000+ Users!`, type: 'WATCHING' }; // Update user count
     if (activity > 3) activity = 0;
     client.user.setActivity(activities[activity]);
     activity++;
