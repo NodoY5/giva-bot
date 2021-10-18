@@ -15,7 +15,7 @@ module.exports = class extends BaseEvent {
     { name: 'your commands', type: 'LISTENING' }, 
     { name: '!help', type: 'LISTENING' },
     { name: 'Heppy Haaloween!!', type: 'WATCHING' },
-    },
+   ];
 
   // Update presence
   client.user.setPresence({ status: 'dnd', activity: activities[0] });
