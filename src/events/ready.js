@@ -14,7 +14,7 @@ module.exports = class extends BaseEvent {
   const activities = [
     { name: 'your commands', type: 'LISTENING' }, 
     { name: '!help', type: 'LISTENING' },
-    { name: 'Made BY Aarav Mehta', type: 'WATCHING' },
+    { name: 'Heppy Haaloween!!', type: 'WATCHING' },
     },
 
   // Update presence
