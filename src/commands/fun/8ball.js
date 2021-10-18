@@ -33,7 +33,12 @@ module.exports = class extends BaseCommand {
             'well yes but actually no',
             'well no but actually yes',
             'omg yes!',
-            'nooooo'
+            'nooooo',
+            'yeeeeeesssssss',
+            'probly no but yes but no',
+            'idk',
+            'wut',
+            'please never for the sake of god'
         ];
     }
     /**
