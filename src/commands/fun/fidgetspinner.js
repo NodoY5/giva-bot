@@ -42,7 +42,7 @@ module.exports = class extends BaseCommand {
         setTimeout(() => {
             spinning.edit(new Discord.MessageEmbed()
                 .setColor('RANDOM')
-                .setDescription(`${message.author.tag}, you spun the fidget spinner for ${timeout.toFixed(2)} seconds.`)
+                .setDescription(`${message.author.tag}, you spun the fidget spinner for ${timeout.toFixed(2)} seconds. NOICE BRO`)
             ).catch(e => {
                 client.logger.error(e);
             });
