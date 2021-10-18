@@ -36,8 +36,7 @@ module.exports = class extends BaseCommand {
             'Green : NOOO',
             'Game : GREEN WAS NOT THE IMPOSTER',
             'YELLOW WINS!'
-            
-        ];
+          ];
     }
     /**
      * @returns {Promise<Message|boolean>}
