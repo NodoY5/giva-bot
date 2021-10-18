@@ -19,8 +19,8 @@ module.exports = class extends BaseCommand {
                 nsfwCommand: false,
                 args: false,
                 usage: '',
-                donatorOnly: false,
-                premiumServer: false,
+                donatorOnly: true,
+                premiumServer: true,
             }
         });
     }
